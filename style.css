@@ -54,19 +54,25 @@ h2 {
     position: relative;
     left: 50%;
     top: 180px;
-    padding: 10PX;
+    padding: 10px;
     transform: translate(-50%, -50%);
-
-
-
-
 }
+
+span {
+    margin-left: 60px;
+}
+
+span:hover{
+    background-position: center;
+    background-color: red;
+}
+
 .submenu, span{
 
     color: rgb(255, 255, 255);
     text-align:center;
     font-size: 15px;
-    padding-left: 60px;
+    /* margin-left: 60px; */
 
 
 }
@@ -114,6 +120,10 @@ li {
     color: lightgreen;
 }
 
+li:hover{
+background-color: red;
+}
+
 .center {
     float: left;
     width: 48%;
@@ -147,9 +157,44 @@ img {
 }
 
 footer {
+    background-color: WHITE;
     width: 80%;
-    height: 250px;
+    height: 500px;
     margin: 1200px auto 30px auto;
-    border: 10px solid white;
+    border: 1px solid white;
     position: relative;
+
+}
+.under {
+    float: left;
+    width: 25%;
+    margin: 0;
+    padding-left:5px;
+    font-size:20px;
+    /* background-color: white; */
+
+}
+
+.under li {
+    color: black;
+    font-size:15px;
+    text-align:left;
+}
+
+.copyright {
+    color:black;
+    position: absolute;
+    left:2%;
+    top:90%;
+    font-size: 15px;
+    /* background-color: black; */
+
+}
+
+.loghi {
+    color:black;
+    position: absolute;
+    right:2%;
+    top:88%;
+
 }
